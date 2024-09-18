@@ -1,0 +1,43 @@
+/* Container styling */
+.event-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: #171717;
+  max-width: 1920px; /* Tailwind's max-w-screen-2xl */
+  /* margin: 0 auto; */
+  padding-top: 7rem;
+  /* min-height: 100vh; */
+}
+.event-page .event-content .event-links a {
+  text-decoration: none;
+  width: 50%;
+  background-color: #fff;
+  /* gap: 10px; */
+}
+.event-page .event-content .event-links .event-link {
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin-left: 20px;
+  color: #ccc;
+  background-color: #000;
+  border: 1px solid #fff;
+}
+.event-page .event-content .event-links .event-link:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+.coming-soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #4e4e4e 0%, #242424 100%);
+  height: 25rem; /* Adjust based on your needs */
+  margin: 50px;
+}
+
+.coming-soon h2 {
+  font-size: 2rem;
+  color: #c1c1c1;
+}

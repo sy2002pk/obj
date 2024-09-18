@@ -1,0 +1,250 @@
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 85px;
+  background-color: #000;
+}
+.box1 p {
+  color: #fff;
+}
+.box1 .b2 {
+  color: #fff;
+  width: 20%;
+}
+.box1 .b2 h1,
+.box1 .b2 p {
+  margin: 20px 0;
+}
+.box1 .b3 {
+  width: 60%;
+  object-fit: cover;
+  height: 100%;
+}
+.box1 .b3 img {
+  width: 100%;
+  height: 100%;
+}
+.box2 .b4 h2,
+.box2 .b4 p {
+  color: #000;
+}
+.box2 .b4 .main {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+/* information */
+.information-section {
+  background-color: #000;
+  padding: 20px 40px;
+  color: #f0f0f0;
+  border-radius: 5px;
+  /* max-width: 1000px; */
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.category {
+  font-size: 14px;
+  color: #b5b5b5;
+  margin-bottom: 10px;
+}
+
+.main-title {
+  font-size: 36px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.main {
+  color: #f0f0f0;
+}
+
+.highlight {
+  color: #e3af4c;
+}
+
+.sub-title {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+  color: #b5b5b5;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #000; /* dark background */
+  padding: 50px;
+}
+
+.grid-item {
+  background-color: #000; /* slightly lighter than the background */
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.grid-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.grid-container h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.grid-container p {
+  font-size: 1rem;
+  color: #ccc;
+  text-align: start;
+}
+
+/* template */
+
+/* Temple Section Styles */
+.temple-list {
+  text-align: center;
+  /* margin: 20px; */
+  padding: 20px;
+  background-color: #000;
+  /* height: 60vh; */
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #e3aa4c; /* Highlighted title color */
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+/* Temple Cards */
+.temple-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Responsive layout */
+  gap: 20px;
+}
+
+.temple-card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.temple-card:hover {
+  transform: scale(1.05); /* Hover effect */
+}
+
+.temple-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.temple-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6); /* Overlay with opacity */
+  color: white;
+  padding: 20px;
+  margin: 0 20px 4px 20px;
+  border-radius: 0 0 8px 8px;
+}
+
+.temple-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.temple-description {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+/* pray */
+.pray-section {
+  background-color: #000; /* Dark background */
+  color: #ffffff; /* White text */
+  text-align: center; /* Center align text */
+  padding: 60px 20px;
+  height: 60vh;
+  font-family: "Arial", sans-serif;
+}
+
+.pray-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #e3af4c; /* Gold color for the title */
+  margin-bottom: 20px;
+}
+
+.pray-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.pray-description {
+  font-size: 1rem;
+  color: #dddddd; /* Lighter gray for the description */
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.pray-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pray-buttons button {
+  background-color: transparent;
+  border: 2px solid #e3af4c; /* Gold border */
+  color: #e3af4c; /* Gold text */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pray-buttons button:hover {
+  background-color: #e3af4c; /* Gold background on hover */
+  color: #000000; /* Black text on hover */
+}
+
+.app-store-btn,
+.google-play-btn {
+  min-width: 220px;
+}

@@ -1,0 +1,28 @@
+.carousel-container {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-slide img {
+  width: 80%; /* Kích thước mặc định cho ảnh */
+  transition: transform 0.3s ease; /* Hiệu ứng mượt khi chuyển đổi */
+}
+
+.slick-center img {
+  transform: scale(1.2); /* Phóng to ảnh ở giữa */
+  transition: transform 0.3s ease;
+}
+
+/* Các nút điều hướng */
+.carousel-navigation {
+  margin-top: 20px;
+}
+
+button.prev-slide,
+button.next-slide {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}

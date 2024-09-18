@@ -1,0 +1,25 @@
+/* Container styling */
+.event-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.event-page .event-content .event-links a {
+  text-decoration: none;
+  width: 50%;
+  background-color: #fff;
+  /* gap: 10px; */
+}
+.event-page .event-content .event-links .event-link {
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin-left: 20px;
+  color: #ccc;
+  background-color: #000;
+  border: 1px solid #fff;
+}
+.event-page .event-content .event-links .event-link:hover {
+  background-color: #ccc;
+  color: #fff;
+}
